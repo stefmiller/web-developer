@@ -1,0 +1,128 @@
+body{
+  margin: 0;
+  width: 1500px;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+p{
+  color: #862a5c;
+}
+
+h1{
+  margin-top:0;
+  color: #862a5c;
+
+}
+h2{
+  margin: 0;
+  font-family: "Qwigley", cursive;
+  font-size: 40px;
+}
+
+hr{
+  border-style: none;
+  border-width: 10px;
+  color: #862a5c;
+  border-top-style: dotted;
+  width: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact{
+  color: #7bb44b;
+}
+.get-in-touch{
+  padding-top: 25px;
+  color: #edbf3c;
+}
+.hello{
+  color:#653614;
+}
+.skills{
+  color: #653614;
+}
+.intro{
+  font-family: "Qwigley";
+  font-size: 75px;
+}
+.aspire{
+  color: #527318;
+}
+.topcontainer{
+  background-color: #beebe9;
+  position:relative;
+  padding-top: 100px;
+  height:550px;
+}
+.middlecontainer{
+  position: relative;
+  background-color: #7bb44b;
+  height: 550px;
+  z-index:2;
+}
+.bottomcontainer{
+  position:relative;
+  background-color: #653614;
+  height: 500px;
+  z-index: 2;
+}
+.link{
+  color: #7bb44b;
+}
+a:active{
+  color:#7bb44b;
+}
+a:hover{
+  color: #edbf3c;
+}
+.freelance{
+  color: #beebe9;
+}
+.roots{
+  position:absolute;
+  height: 300px;
+  bottom: 385px;
+  left:75px;
+}
+
+.top-cloud{
+  position: fixed;
+  top: 50px;
+  right: 200px;
+  z-index:1;
+
+}
+.bottom-cloud{
+  position:fixed;
+  left: 300px;
+  bottom: 300px;
+  z-index:1;
+
+}
+.mountain{
+  position: absolute;
+  bottom: 0;
+  left: 400px;
+}
+
+.tree{
+  height:100px;
+  width: auto;
+  position: absolute;
+  bottom: 475px;
+  left:275px;
+}
+.aspen-1{
+  height:100px;
+  position: absolute;
+  top:100px;
+  right: 300px;
+}
+.aspen-2{
+  height: 75px;
+  position: absolute;
+  bottom: 485px;
+  right: 50px;
+}
