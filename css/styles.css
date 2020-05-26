@@ -1,22 +1,30 @@
 body{
   margin: 0;
+  width: 1500px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
 }
 
 p{
   color: #862a5c;
+  font-weight: normal;
+  font-size: 115%;
 }
 
 h1{
-  margin-top:0;
+  margin:50px auto 0 auto;
   color: #862a5c;
 
 }
 h2{
   margin: 0;
   font-family: "Qwigley", cursive;
-  font-size: 40px;
+  font-size: 2.5rem;
+  color: #66BFBF;
+
+}
+h3{
+  color: #527318;
 }
 
 hr{
@@ -25,26 +33,46 @@ hr{
   color: #862a5c;
   border-top-style: dotted;
   width: 5%;
+  margin-top: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+.skill-row-1{
+  line-height: 1.5;
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
+.skill-row-2{
+  line-height: 1.5;
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+}
 .contact{
-  color: #7bb44b;
+  color: #edbf3c;
+  padding: 20px;
 }
 .get-in-touch{
-  padding-top: 25px;
+  padding-top: 75px;
   color: #edbf3c;
+  font-size: 400%;
 }
 .hello{
+  padding-top: 50px;
   color:#653614;
+  font-size: 425%;
 }
 .skills{
+  margin-top: 50px;
   color: #653614;
+  font-size: 400%
 }
+
 .intro{
   font-family: "Qwigley";
-  font-size: 75px;
+  font-size: 562.5%;
 }
 .aspire{
   color: #527318;
@@ -58,13 +86,13 @@ hr{
 .middlecontainer{
   position: relative;
   background-color: #7bb44b;
-  height: 550px;
+  height: 900px;
   z-index:2;
 }
 .bottomcontainer{
   position:relative;
   background-color: #653614;
-  height: 500px;
+  height: 450px;
   z-index: 2;
 }
 .link{
@@ -76,13 +104,13 @@ a:active{
 a:hover{
   color: #edbf3c;
 }
-.freelance{
+.project{
   color: #beebe9;
 }
 .roots{
   position:absolute;
   height: 300px;
-  bottom: 385px;
+  bottom: 335px;
   left:75px;
 }
 
@@ -101,27 +129,52 @@ a:hover{
 
 }
 .mountain{
-  position: absolute;
-  bottom: 0;
-  left: 400px;
+  position: relative;
+  padding: 0 auto 0 auto;
 }
 
 .tree{
   height:100px;
   width: auto;
   position: absolute;
-  bottom: 475px;
+  bottom: 875px;
   left:275px;
 }
 .aspen-1{
-  height:100px;
-  position: absolute;
-  top:100px;
-  right: 300px;
+  width: 20%;
+  float:left;
+  margin-right: 30px;
+
 }
 .aspen-2{
-  height: 75px;
-  position: absolute;
-  bottom: 485px;
-  right: 50px;
+  width: 15%;
+  float:right;
+  margin-left:30px;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Open Sans";
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.copyright{
+  color:#7bb44b;
+  padding: 20px;
 }
